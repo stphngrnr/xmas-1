@@ -58,7 +58,7 @@ while true; do
         color=$(((color+1)%8))
         # Flashing text
         sh=1
-        for l in OPS A L T A A A
+        for l in O P S - A L T A A A
         do
             tput cup $((lin+1)) $((c+sh))
             echo $l
